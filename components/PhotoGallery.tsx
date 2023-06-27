@@ -8,9 +8,9 @@ export default function PhotoGallery(props: {photos: Array<string>}) {
                   class="h-full flex flex-nowrap ml-40 "
                 >
                     {props.photos.map((item) => {
-                    return (<div class="inline-block px-3">
+                    return (<div class="inline-block px-6">
                         <div
-                          class="w-96 h-full max-w-xs overflow-hidden rounded-lg hover:shadow-xl transition-shadow duration-300 ease-in-out"
+                          class="w-screen sm:w-96 h-full max-w-xs overflow-hidden rounded-lg hover:shadow-xl transition-shadow duration-300 ease-in-out"
                         >
                             <img
                               src={item}

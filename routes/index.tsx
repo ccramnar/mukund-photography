@@ -9,13 +9,15 @@ export default function Home(props: PageProps) {
   return (
 <Layout {...props}>
       <div class="flex-grow w-full flex justify-center items-center" style={{ 
-        backgroundImage: `url("./headshot.png")`, 
+        background: `no-repeat center center fixed url("/places/lake ontario(A3 L).jpg")`, 
+        backgroundSize: 'cover'
+
         }}>
           <About
             img="/headshot.png"
-            title="Mukund"
+            title="Mukund Does Photography"
           >
-            Mukund stuff
+            Welcome to my W.I.P page to display my photography!
           </About>
         </div>
     </Layout>

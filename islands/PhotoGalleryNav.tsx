@@ -3,9 +3,8 @@ import { useState } from 'preact/hooks';
 
 const navigation = [
     { name: 'ANIMALS', href: '/photos/animals' },
-    { name: 'PLACES', href: '/photos/places', current: false },
-    { name: 'PEOPLE', href: '/photos/people', current: false },
-    { name: 'ABSTRACT', href: '/photos/abstract', current: false }
+    { name: 'PLACES', href: '/photos/places'},
+    { name: 'PEOPLE', href: '/photos/people'}
   ]
  
   function classNames(...classes: string[]) {
@@ -17,11 +16,9 @@ export default function PhotoGalleryNav(props: { initialState: string; pathname:
 
     
     return (
-        <div className="flex grow flex-col h-full gap-y-5 px-2 pt-4 pb-10 bg-white bg-opacity-50">
-          <nav className="flex flex-1 flex-col">
-            <ul role="list" className="flex flex-1 flex-col gap-y-7">
-              <li>
-                <ul role="list" className="-mx-2 space-y-1">
+        <div className="flex flex-col h-full px-2 pt-4 pb-10 bg-white bg-opacity-50">
+          <nav className="flex justify-center flex-col">
+                <ul role="list" className="">
                   {navigation.map((item) => (
                     <li key={item.name}>
                       <a
@@ -38,8 +35,6 @@ export default function PhotoGalleryNav(props: { initialState: string; pathname:
                     </li>
                   ))}
                 </ul>
-              </li>
-            </ul>
           </nav>
         </div>
       )
