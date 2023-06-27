@@ -3,9 +3,9 @@ import PhotoGallery from "../../components/PhotoGallery.tsx";
 import PhotoGalleryNav from "../../islands/PhotoGalleryNav.tsx";
 import { Layout } from "../../components/Layout.tsx";
 
-const animals = ['/1.png','/2.png', '/3.png']
-const people = ['/1.png', '/2.png', '/3.png', '/4.png' ]
-const places = ['/1.png', '/2.png', '/3.png', '/4.png', '/5.png', '/6.png', '/7.png']
+const animals = ['/animal/1.png','/animal/2.png', '/animal/3.png']
+const people = ['/people/1.png', '/people/2.png', '/people/3.png', '/people/4.png' ]
+const places = ['/places/1.png', '/places/2.png', '/places/3.png', '/places/4.png', '/places/5.png', '/places/6.png', '/places/7.png']
 
 const photos = {
     animals,
