@@ -84,7 +84,7 @@ function SiteLink(props: { route: string; href: string; children: string }) {
               <div class="flex-shrink-0">
                 <a
                   class="relative inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-                  href="mailto:ccramnar@uwaterloo.ca"
+                  href="mailto:mm2sharm@uwaterloo.ca"
                   target="_blank"
                 >
                   <svg

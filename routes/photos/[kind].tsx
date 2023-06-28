@@ -28,7 +28,10 @@ export default function PhotosPage(props: PageProps) {
 
   return ( 
 <Layout {...props }>
-      <div class="w-full flex-grow relative">
+      <div class="w-full flex-grow relative" style={{ 
+       background: "linear-gradient(176deg, rgba(255,255,255,1) 0%, rgba(105,163,209,0.92202092018448) 100%)"
+
+        }}>
       <div class="inset-0 absolute">
               <PhotoGallery photos={thesePhotos}/>
               </div>
